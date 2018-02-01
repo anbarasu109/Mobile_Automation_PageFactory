@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Page Object test example">
+<parameter name="OS" value="Android"/>
+<parameter name="DEVICENAME" value="Nexus 5"/>
+  <test name="sample test">
+    <classes>
+      <class name="Citygoo.Automation.Regression.mobile.Citygoo.Automation.Regression.mobile.WelcomeScreen"/>
+    </classes>
+  </test>
+</suite>

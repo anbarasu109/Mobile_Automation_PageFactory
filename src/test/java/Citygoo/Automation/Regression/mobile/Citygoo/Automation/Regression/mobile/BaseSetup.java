@@ -32,7 +32,7 @@ public class BaseSetup {
 
 	public URL url1;
 	public static AppiumDriver driver = null;
-	public static String platform = "iOS";
+	public static String platform = "Android";
 
 	@BeforeSuite
 	public void initdriver() throws Exception {
